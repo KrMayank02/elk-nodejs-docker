@@ -2,8 +2,8 @@ import logger from "./logger.js"
 
 const homeController = (req,res) =>{
     try{
-        logger.info("welcome home page")
-        res.send("welcome Home Page")
+        logger.info("Welcome to Home Page of Node-js Application")
+        res.send("Welcome to Home Page of Node-js Application")
     }catch(error){
         console.log(error)
     }
@@ -11,8 +11,8 @@ const homeController = (req,res) =>{
 
 const postController = (req,res) => {
     try{
-        logger.info("welcome Post page")
-        res.send("Welcome Post page")
+        logger.info("Welcome to Post page")
+        res.send("Welcome to Post page")
     }catch(error){
         console.log(error)
     }
